@@ -1,4 +1,4 @@
-# Data Platform Engineer – Skill Assessment
+# Data Engineer – Skill Assessment
 
 ## Overview
 This project demonstrates how I clean and normalize a CSV file containing 5,000 unclean records.
@@ -7,7 +7,7 @@ I approached the problem by first addressing fields with simpler rules, followed
 
 A Dockerfile is included to allow the pipeline to be run in a reproducible local environment.
 
-The final output CSV matches the desired output. 
+The final output CSV matches the desired output. Tests and validations are handled in comments!  
 
 
 
@@ -42,3 +42,4 @@ Run this command
 python clean_csv.py
 
 Which generates cleaned output
+
